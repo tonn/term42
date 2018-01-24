@@ -1,8 +1,9 @@
 {
   "name": "term42",
+  "author": "Anton Novikov <tonn.post@gmail.com>",
   "main": "./lib/term42",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Virtual terminal for Atom editor",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "term42:new"

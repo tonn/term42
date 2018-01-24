@@ -1,0 +1,19 @@
+{
+  "name": "term42",
+  "main": "./lib/term42",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "term42:toggle"
+  },
+  "repository": "https://github.com/atom/term42",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "xterm": "^3.0.2",
+    "pty.js": "https://github.com/platformio/pty.js/tarball/prebuilt"
+  }
+}

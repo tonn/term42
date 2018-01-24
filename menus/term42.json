@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle term42",
+        "command": "term42:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "term42",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "term42:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
